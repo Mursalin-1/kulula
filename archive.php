@@ -32,8 +32,8 @@
                 while ( have_posts() ) : the_post(); ?>
 
                     <div class="mb-4">
-                        <?php the_post_thumbnail('',array(
-                          'class' => 'mb-4 img-fluid'
+                        <?php the_post_thumbnail('blog-thumb',array(
+                          'class' => 'img'
                         ))?>
                         
                         </div>

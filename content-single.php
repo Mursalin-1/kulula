@@ -9,7 +9,8 @@
 	 at 
 	 <a href="" class="post-time"><?php the_date(); ?></a>
 </span>
-<span>| Categories: <?php
+<span><?php
+        _e('| Categories: ', 'kulula');
         $categories = get_the_category();
         $comma      = ', ';
         $output     = '';

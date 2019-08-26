@@ -1,7 +1,3 @@
-<?php
-	$background_options = get_option('t_theme_background_options');
-
-?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>

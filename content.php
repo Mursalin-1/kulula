@@ -9,7 +9,7 @@
 		<span>
 			Posted at <a href="#" class="post-time"><?php echo get_the_date(); ?></a> <br> <br>
 		</span>
-		<button onclick="window.location='<?php esc_url(the_permalink()) ?>';"> <?php _e('Read More :','kulula') ?></button> <br><br>
+		<button onclick="window.location='<?php esc_url(the_permalink()) ?>';"> <?php _e('Read More ','kulula') ?></button> <br><br>
 		
 		
 	</div>
