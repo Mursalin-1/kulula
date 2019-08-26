@@ -56,7 +56,7 @@
                                   } ?>
 
                             <p class="card-text"><?php the_excerpt() ?></p>
-                            <button onclick="window.location='<?php esc_url(the_permalink()) ?>';"> Read More</button> <br><br>
+                            <button onclick="window.location='<?php esc_url(the_permalink()) ?>';"><?php _e('Read More','t_theme') ?></button> <br><br>
                             <hr>
                         </div>
                         

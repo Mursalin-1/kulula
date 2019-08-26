@@ -4,7 +4,9 @@
 			<div class="">
 			<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
 			
-				<img src="http://placehold.it/1180x500">
+				<a href="<?php esc_url(the_permalink()) ?>" alt="<?php the_title_attribute(); ?>">
+			        <?php the_post_thumbnail('blog-thumb'); ?>
+			    </a>
 				
 				<h1 class="mtitle"><?php the_title(); ?></h1>
 				<span class="post-meta-details">
