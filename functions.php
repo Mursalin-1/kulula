@@ -27,7 +27,7 @@ if ( function_exists( 'add_theme_support' ) ) {
 }
 function t_theme_adds(){
 	add_theme_support( 'title-tag' );
-	register_nav_menus( [ 'primary' => __( 'Primary Menu' , 't_theme') ] );
+	register_nav_menus( [ 'primary' => __( 'Primary Menu' , 'kulula') ] );
 	add_theme_support( 'custom-header', $args );
 	add_theme_support( 'custom-background' );
 }
@@ -45,7 +45,7 @@ function t_theme_wp_title_filter_callback($title, $sep){
  
     // Add a page number if necessary.
     if ( $paged >= 2 || $page >= 2 )
-        $title = "$title $sep " . sprintf( __( 'Page %s', 't_theme' ), max( $paged, $page ) );
+        $title = "$title $sep " . sprintf( __( 'Page %s', 'kulula' ), max( $paged, $page ) );
  
     return $title;
 

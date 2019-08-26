@@ -17,7 +17,7 @@
             }elseif(is_author()){
               echo 'Author Archive: '.get_the_author();
             }else{
-              _e('Archive', 't_theme');
+              _e('Archive', 'kulula');
             }
           ?>
           
@@ -41,7 +41,7 @@
                             <h1><?php the_title(); ?></h1>
 
                             <div class="text-muted mb-10 post-meta">
-                            <?php _e('Posted on ', 't_theme'); echo get_the_date(); _e(' by ', 't_theme');?>
+                            <?php _e('Posted on ', 'kulula'); echo get_the_date(); _e(' by ', 'kulula');?>
                             <a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ), get_the_author_meta( 'user_nicename' ) ); ?>"><?php the_author(); ?></a>
                                Categories: <?php
                                   $categories = get_the_category();

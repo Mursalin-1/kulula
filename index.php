@@ -19,7 +19,7 @@
 
 						<?php 
 						else: 
-							_e('There are no posts','t_theme');
+							_e('There are no posts','kulula');
 						endif;
 					?>
 				</div>

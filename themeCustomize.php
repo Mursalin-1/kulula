@@ -48,7 +48,7 @@ function t_theme_register_theme_customizer($wp_customize){
 			$wp_customize,
 			'header_background',
 			array(
-				'label'=> __('Header Background Color', 't_theme'),
+				'label'=> __('Header Background Color', 'kulula'),
 				'section'=> 'colors',
 				'settings'=>'t_theme_header_background'
 			)
@@ -61,7 +61,7 @@ function t_theme_register_theme_customizer($wp_customize){
 			$wp_customize,
 			'footer_background',
 			array(
-				'label'=> __('Footer Background Color', 't_theme'),
+				'label'=> __('Footer Background Color', 'kulula'),
 				'section'=> 'colors',
 				'settings'=>'t_theme_footer_background'
 			)
@@ -73,7 +73,7 @@ function t_theme_register_theme_customizer($wp_customize){
 			$wp_customize,
 			'header_text_color',
 			array(
-				'label'=> __('Header and Menu Text Color', 't_theme'),
+				'label'=> __('Header and Menu Text Color', 'kulula'),
 				'section'=> 'colors',
 				'settings'=>'t_theme_header_text_color'
 			)
@@ -85,7 +85,7 @@ function t_theme_register_theme_customizer($wp_customize){
 			$wp_customize,
 			'footer_text_color',
 			array(
-				'label'=> __('Footer Text Color', 't_theme'),
+				'label'=> __('Footer Text Color', 'kulula'),
 				'section'=> 'colors',
 				'settings'=>'t_theme_footer_text_color'
 			)
@@ -97,7 +97,7 @@ function t_theme_register_theme_customizer($wp_customize){
 			$wp_customize,
 			'menu_hover_background',
 			array(
-				'label'=> __('Menu Hover Background', 't_theme'),
+				'label'=> __('Menu Hover Background', 'kulula'),
 				'section'=> 'colors',
 				'settings'=>'t_theme_menu_hover_background'
 			)
@@ -109,7 +109,7 @@ function t_theme_register_theme_customizer($wp_customize){
 			$wp_customize,
 			'button_background',
 			array(
-				'label'=> __('Button Background Color', 't_theme'),
+				'label'=> __('Button Background Color', 'kulula'),
 				'section'=> 'colors',
 				'settings'=>'t_theme_button_background'
 			)
