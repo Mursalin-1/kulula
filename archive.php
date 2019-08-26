@@ -17,7 +17,7 @@
             }elseif(is_author()){
               echo 'Author Archive: '.get_the_author();
             }else{
-              echo "Archive";
+              _e('Archive', 't_theme');
             }
           ?>
           
@@ -56,7 +56,7 @@
                                   } ?>
 
                             <p class="card-text"><?php the_excerpt() ?></p>
-                            <button onclick="window.location='<?php the_permalink() ?>';"> Read More</button> <br><br>
+                            <button onclick="window.location='<?php esc_url(the_permalink()) ?>';"> Read More</button> <br><br>
                             <hr>
                         </div>
                         
